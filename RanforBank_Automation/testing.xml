@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Parallel Executiom" verbose="1" >
+  <test name="ParallelTesting" parallel = "methods" >
+    <classes>
+      <class name="testNGPrograms.parallelTestEx"/>
+    </classes>
+  </test>
+</suite>
